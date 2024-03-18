@@ -15,7 +15,7 @@
   .headhero{
   background-image: url(images/heroback.png);  
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   }
 
   .headcontainer{
@@ -141,8 +141,8 @@ color: #FFFFFF;
   }
   .herotext h1{
     font-family: "volkhov";
-    font-size: 60px;
-    font-weight: 700;
+    font-size: 70px;
+    font-weight: 600;
     line-height: 89px;
     letter-spacing: -0.04rem;
     color: #181E4B;
@@ -167,8 +167,8 @@ color: #FFFFFF;
   }
 
   .line{
-    margin-top: -17rem;
-    margin-left: -17.5rem;
+    margin-top: -16.5rem;
+    margin-left: -19rem;
   }
 
   .line img{
@@ -319,3 +319,430 @@ line-height: 26px;
  z-index: -1;
  right: 0;
  }
+
+ .boxtext{
+  width: 325px;
+  border-radius: 0 0 24px 24px;
+  background: #FFF;
+  margin-top: -9rem;
+  position: absolute;
+  box-shadow: 1px 1.2px 5px rgb(299, 299, 299);
+  padding: 2rem 1.5rem 2.7rem 1rem;
+   }
+  
+   .boximage img{
+    width: 325px;
+   }
+  
+   .boxes{
+    display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+  
+   .boxwrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+   }
+    
+   .country p{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+   }
+  
+   .price p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+   }
+  
+   .boxText i{
+    padding-right: 0.5rem;
+   }
+  
+   .spring {
+   margin-top: 5rem;
+   margin-right: 3rem;
+   position: absolute;
+   z-index: -1;
+   right: 0;
+   }
+  
+   .booking{
+    width: 100%;
+    margin: auto;
+    /* margin-bottom: 4rem;
+    margin-top: 4rem; */
+    display: flex;
+    align-items: center;
+  }
+  
+  .bookinginfo p{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  color: #5E6282;
+  
+  }
+  
+  .bookinginfo h2{
+  font-family: Volkhov;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #14183E;
+  margin-bottom: 2rem;
+  width: 79%;
+  
+  
+  
+  }
+  
+  .bookingwrd h4{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5E6282;
+  /* margin-bottom:0.3rem; */
+  overflow: hidden;
+  }
+  
+  
+  .bookingwrd p{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #5E6282;
+  margin-bottom: 2rem;
+  width: 60%;
+  overflow: hidden;
+  }
+  
+  
+  .bookingimg{
+    width: 15%;
+  }
+  
+  
+  .bookingall{
+    display: flex;
+   gap: 0.7rem;
+  }
+
+  .testimonials{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .comments p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    color: #5E6282;
+    line-height: 27px;
+    width: 128px;
+    height: 27px;
+    top: 3118px;
+  }
+
+  .comments h{
+    font-family: Volkhov;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+    width: 409px;
+    height: 130px;
+    top: 3153px;
+    }
+
+  .dotsImage{
+    width: 87px;
+    padding-top: 4rem;
+  }
+  
+  .greecetrip{
+    align-items: center;
+    width: 68%;
+    margin-top: 3.5rem;
+  }
+  
+  .bookingsteps{
+    width: 100%;
+  }
+
+  .logos{
+    /* width: 1073px; */
+    width: 100%;
+    height: 160px;
+    top: 3561px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+ 
+.subSection{
+    
+    background-image: url(images/subback.png); 
+    background-size: cover; 
+    width: 1150px;
+    height: 350px;
+    top: 3847px;
+    left: 1305px;
+    border-radius: 20px, 129px, 20px, 20px;
+    opacity: 0.2px;
+    margin-bottom:8rem;
+}
+
+.subback{
+    align-items: center;
+}
+
+  .subbackText h5{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: center;
+    padding-top: 3rem;
+ }
+
+  .emailSection{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 3rem 14rem;
+    }
+
+  .email{
+    width: 290px;
+    height: 57px;
+    top: 4108px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    padding: 1rem 1rem 1rem;
+    display: flex;
+    gap: .5rem;
+ }
+
+  emailImage{
+    width: 21px;
+    height: 18px;
+    top: 4133px;
+    left: 418px;
+    border-radius: 5px;
+    border: 1px;
+   margin: auto;
+}
+
+  .emailText h4{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+  
+.subbtn button {
+    width: 80px;
+    height: 23px;
+    top: 4130px;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 180px;
+    height: 57px;
+    top: 4108px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+}
+
+.cursor{
+    margin-top: -16rem;
+    margin-right:-22rem;
+ 
+  } 
+
+.footContainer{
+    width: 100%;
+    margin-top: 4rem;
+  }
+  
+  footer{
+    width: 85%;
+    margin: auto;
+  }
+  
+  .foot{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flexSide{
+    display: flex;
+    gap: 4rem;
+  }
+  
+  .logoSide{
+    width: 25%;
+  }
+  
+  .logoSide p{
+    padding-top: 2rem;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  
+  .company{
+    margin-top: .5rem;
+  }
+  
+  .company li{
+    list-style: none;
+    padding-top: 1rem;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  
+  .company h4{
+    padding-bottom: 1rem;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 26px;
+    color: rgba(8, 8, 9, 1);
+  }
+  
+  .socials p{
+    padding: 1rem 0;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  
+  .copyright p{
+    padding: 4rem 0;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+  }
+
+
+  @media screen and (max-width: 1024px){
+   nav{
+    gap: 1.5rem;
+   }
+
+   .herotext h5{
+    font-size: 18px;
+    line-height: 30px;
+  
+  }
+
+    .herotext h1{
+      font-size: 45px;
+      width: 100%;
+      line-height: 59px;
+      padding-bottom: 1rem;
+    }
+  
+  
+  
+    .herotext p{
+      font-size: 11px;
+      width: 95%;
+      padding-bottom: 1rem;
+    }
+    .line{
+      margin-top: -12.5rem;
+      margin-left: -11rem;
+    }
+  
+    .line img{
+      width: 68%;
+    }
+
+    .heroimage{
+      width: 70%;
+      margin-left: -3rem;
+    }
+    .card{
+      width: 267px;
+      padding: 1rem;
+   }
+    .card p{
+      font-size: 13px;
+      
+  }
+       .card h5{
+       font-size: 15px;
+        
+ }
+ .boxtext{
+  width: 255px;
+   }
+
+   .boximage img{
+    width: 255px;
+   }
+
+   .bookinginfo h2{
+    font-size: 45px;
+    width: 90%;
+    }
+
+    .bookingwrd p{
+     font-size: 14px;
+    width: 70%;
+    }
+    .greecetrip img{
+      width: 100%;
+    }  
+   }
+  
+  
+   @media screen and (max-width: 900px){
+    nav{
+     display:none ;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+ 
