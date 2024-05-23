@@ -49,7 +49,7 @@ text-align: left;
   li:hover {
     cursor: pointer;
     text-decoration: underline;
-    color: yellow
+    color: yellow;
   }
 
   nav button{
@@ -101,9 +101,8 @@ margin-right: 1rem;
 border-radius: 10px;
 font-family: Open Sans;
 font-size: 14px;
-font-weight: 500;
+font-weight: 500px;
 line-height: 23px;
-letter-spacing: 0em;
 text-align: center;
 background: #F1A501;
 border: none;
@@ -124,7 +123,7 @@ color: #FFFFFF;
   }
   .heroimage{
     width: 60%;
-    margin-left: -2rem;
+    margin-left: -9rem;
   }
   .heroimage img{
     width: 100%;
@@ -167,7 +166,7 @@ color: #FFFFFF;
   }
 
   .line{
-    margin-top: -16.5rem;
+    margin-top: -16.7rem;
     margin-left: -19rem;
   }
 
@@ -212,7 +211,7 @@ color: #14183E;
     width: 267px;
     border-radius: 36px;
     padding: 2rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
 
   .card h5{
@@ -502,39 +501,38 @@ line-height: 26px;
     
     background-image: url(images/subback.png); 
     background-size: cover; 
-    width: 1150px;
-    height: 350px;
-    top: 3847px;
-    left: 1305px;
+    width: 1257px;
+    height: 407px;
     border-radius: 20px, 129px, 20px, 20px;
-    opacity: 0.2px;
+    /* opacity: 0.2px; */
     margin-bottom:8rem;
 }
 
-.subback{
-    align-items: center;
+.subbackText {
+ margin-left: 8rem;
 }
 
-  .subbackText h5{
+.subbackText h5{
     font-family: Poppins;
-    font-size: 40px;
+    font-size: 33px;
     font-weight: 600;
-    line-height: 54px;
     text-align: center;
-    padding-top: 3rem;
- }
+    line-height: 54px;
+    padding-top: 4rem;
+    color: #5E6282;
+    width: 881px;
+}
 
   .emailSection{
     display: flex;
     gap: 2rem;
-    align-items: center;
-    padding: 3rem 14rem;
+    padding-top: 3rem;
+    margin-left: 20rem;
     }
 
   .email{
     width: 290px;
     height: 57px;
-    top: 4108px;
     border-radius: 10px;
     background: #FFFFFF;
     padding: 1rem 1rem 1rem;
@@ -542,27 +540,16 @@ line-height: 26px;
     gap: .5rem;
  }
 
-  emailImage{
-    width: 21px;
-    height: 18px;
-    top: 4133px;
-    left: 418px;
-    border-radius: 5px;
-    border: 1px;
-   margin: auto;
-}
-
   .emailText h4{
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
+    color: #39425D;
+
 }
   
 .subbtn button {
-    width: 80px;
-    height: 23px;
-    top: 4130px;
     font-family: Open Sans;
     font-size: 17px;
     font-weight: 600;
@@ -571,16 +558,15 @@ line-height: 26px;
     color: #FFFFFF;
     width: 180px;
     height: 57px;
-    top: 4108px;
     border-radius: 10px;
     background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
 }
 
 .cursor{
-    margin-top: -16rem;
-    margin-right:-22rem;
- 
-  } 
+    float: right;
+   margin-bottom: -3rem ; 
+    /* width: 70px; */
+} 
 
 .footContainer{
     width: 100%;
